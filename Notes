@@ -1,0 +1,24 @@
+Use a Virtual Environment for Isolated Installations:
+
+If you prefer not to install packages system-wide:
+
+    Create a Virtual Environment:
+
+    bash
+
+python3 -m venv myenv
+
+Activate the Environment:
+
+bash
+
+source myenv/bin/activate
+
+Now, within this virtual environment, you can use pip to install torch without the externally managed environment warning:
+
+bash
+
+    python3 -m pip install torch
+
+
+This approach keeps your installations isolated and avoids conflicts with system-wide packages.
