@@ -19,6 +19,8 @@ Now, within this virtual environment, you can use pip to install torch without t
 bash
 
     python3 -m pip install torch
+    python3 -m pip install matplotlib
+    python3 -m pip install numpy
 
 
 This approach keeps your installations isolated and avoids conflicts with system-wide packages.
