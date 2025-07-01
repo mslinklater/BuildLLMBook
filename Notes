@@ -21,6 +21,9 @@ bash
     python3 -m pip install torch
     python3 -m pip install matplotlib
     python3 -m pip install numpy
+    python3 -m pip install graphviz
+
+    brew install graphviz
 
 
 This approach keeps your installations isolated and avoids conflicts with system-wide packages.
